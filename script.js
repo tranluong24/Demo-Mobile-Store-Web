@@ -3,9 +3,7 @@ const addToCartButtons = document.querySelectorAll('.add-to-cart');
 
 addToCartButtons.forEach(button => {
     button.addEventListener('click', () => {
-        for (let i = 0; i < 10000; i++) {
-            alert('Đã thêm sản phẩm vào giỏ hàng!');
-          }
+        alert('Đã thêm sản phẩm vào giỏ hàng!');
     });
 });
 
